@@ -1,0 +1,15 @@
+.hero-image{
+    background-image: url("./images/SG010_6.webp");
+    height: 352px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.hero-text{
+    color: white;
+    position: absolute;
+    text-align: center;
+    top: 280px;
+    width: 100%;
+}
