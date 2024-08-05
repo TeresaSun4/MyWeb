@@ -3,7 +3,8 @@
 }
 
 img{
-    width: 50%;
+    width: 100%;
+    border-radius: 5px;
 }
 
 
@@ -24,11 +25,34 @@ img{
     font-size: 4rem;
 }
 
-.two-coloum{
+.two-coloumn{
     display: grid;
     grid-template-columns: 1fr, 3fr;
     gap: 50px;
     width: 80%;
     margin: auto;
     margin-top: 40px;;
+}
+
+.info{
+    font-size: 1.25em;
+}
+
+.three-coloumn{
+    display:grid;
+    grid-template-columns: repeat(3,1fr);
+    gap: 50px;
+    width: 80%;
+    margin: auto;
+    margin-top: 40px;
+    margin-bottom: 50px;
+}
+
+.card{
+    background-color: aquamarine;
+}
+
+.card_text{
+    text-align: center;
+    color: black;
 }
